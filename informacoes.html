@@ -5,6 +5,33 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Informações</title>
 <link rel="stylesheet" href="style.css" />
+<style>
+.info-container {
+text-align: center;
+padding: 40px;
+}
+
+.texto {
+font-size: 1.5em;
+color: #333;
+margin-top: 20px;
+}
+
+.voltar {
+margin-top: 30px;
+padding: 15px 30px;
+font-size: 1em;
+background-color: #ccc;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+.voltar:hover {
+background-color: #999;
+}
+</style>
 </head>
 <body>
 <header>
@@ -12,13 +39,15 @@
 </header>
 
 <div class="info-container">
-<img src="imagem/avaliacao.jpg" alt="Imagem de Avaliação" class="imagem-aval" />
 <img src="imagem/minha-foto.jpg" alt="Minha Foto" class="foto" />
+
 <div class="texto">
 <p>Nome: Pedro Santos</p>
 <p>Idade: 17 anos</p>
 <p>O Melhor Barbeiro de Ivaiporã.</p>
 </div>
+
+<button onclick="location.href='index.html'" class="voltar">Voltar</button>
 </div>
 </body>
 </html>
