@@ -14,7 +14,7 @@ align-items: center;
 }
 
 .logo {
-width: 120px; /* 🔧 Altere esse valor para mudar o tamanho da logo */
+width: 120px; /* 🔧 Tamanho da logo */
 }
 
 /* CONTEÚDO CENTRALIZADO */
@@ -48,12 +48,12 @@ background-color: #2980b9;
 /* IMAGENS */
 .imagem-aval {
 margin-top: 30px;
-width: 250px; /* 🔧 Tamanho da imagem de avaliação */
+width: 250px; /* 🔧 Tamanho da imagem da avaliação */
 height: auto;
 }
 
 .foto {
-width: 300px; /* 🔧 Tamanho da sua foto */
+width: 300px; /* 🔧 Tamanho da minha foto */
 height: auto;
 border-radius: 20px;
 margin-top: 20px;
